@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RolesWidget Renders component without crashing 1`] = `
+<div
+  className="widget"
+>
+  <div
+    className="header"
+  >
+    <div
+      className="title"
+    >
+      Test project 1
+    </div>
+    <div
+      className="description"
+    >
+      Now select the role for test user 1
+    </div>
+  </div>
+  <button
+    className="assign"
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
+</div>
+`;
+
+exports[`RolesWidget should render correctly with props.mode === "default" 1`] = `
+<div
+  className="widget"
+>
+  <RolesSelect
+    assignUser={[Function]}
+    changeMode={[Function]}
+    filteredUsers={
+      Array [
+        Object {
+          "id": 1,
+          "name": "test user 1",
+        },
+      ]
+    }
+    mode="default"
+    projects={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Test project 1",
+        },
+        Object {
+          "id": 2,
+          "name": "Test project 2",
+        },
+      ]
+    }
+    roles={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Admin",
+        },
+        Object {
+          "id": 2,
+          "name": "Editor",
+        },
+      ]
+    }
+    selectUser={[Function]}
+    selectedProjectId={1}
+    selectedUserId={1}
+    unassignUser={[Function]}
+    users={
+      Array [
+        Object {
+          "id": 1,
+          "name": "test user 1",
+        },
+        Object {
+          "id": 2,
+          "name": "test user 2",
+        },
+      ]
+    }
+  />
+  <UserItem
+    onUnassign={[Function]}
+    user={
+      Object {
+        "id": 1,
+        "name": "test user 1",
+      }
+    }
+  />
+  <button
+    className="assign"
+    onClick={[Function]}
+  >
+    Assign more
+  </button>
+</div>
+`;
+
+exports[`RolesWidget should render correctly with props.mode === "select-role" 1`] = `
+<div
+  className="widget"
+>
+  <div
+    className="header"
+  >
+    <div
+      className="title"
+    >
+      Test project 1
+    </div>
+    <div
+      className="description"
+    >
+      Now select the role for test user 1
+    </div>
+  </div>
+  <RoleItem
+    onSelect={[Function]}
+    role={
+      Object {
+        "id": 1,
+        "name": "Admin",
+      }
+    }
+  />
+  <RoleItem
+    onSelect={[Function]}
+    role={
+      Object {
+        "id": 2,
+        "name": "Editor",
+      }
+    }
+  />
+  <button
+    className="assign"
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
+</div>
+`;
+
+exports[`RolesWidget should render correctly with props.mode === "select-user" 1`] = `
+<div
+  className="widget"
+>
+  <div
+    className="header"
+  >
+    <div
+      className="title"
+    >
+      Test project 1
+    </div>
+    <div
+      className="description"
+    >
+      Select the user below
+    </div>
+  </div>
+  <UserItem
+    onSelect={[Function]}
+    user={
+      Object {
+        "id": 1,
+        "name": "test user 1",
+      }
+    }
+  />
+  <button
+    className="assign"
+    onClick={[Function]}
+  >
+    Cancel
+  </button>
+</div>
+`;
+
+exports[`RolesWidget should render loader if props.isFetching 1`] = `
+<div
+  className="widget"
+>
+  <GridLoader
+    className="loader"
+    color="#5E85E7"
+    loading={true}
+    margin="2px"
+    size="10px"
+  />
+</div>
+`;

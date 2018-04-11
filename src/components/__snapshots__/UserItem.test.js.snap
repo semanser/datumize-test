@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserItem Component Renders component without crashing 1`] = `
+<div
+  className="roles-item"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <AvatarImage
+    name="John Doe"
+    type="user"
+  />
+  <div
+    className="text"
+  >
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`UserItem Component should render the Unassign button if props.onUnassign is passed 1`] = `
+<div
+  className="roles-item"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <AvatarImage
+    name="John Doe"
+    type="user"
+  />
+  <div
+    className="text"
+  >
+    John Doe
+  </div>
+  <div
+    className="role"
+  >
+    Admin
+  </div>
+</div>
+`;

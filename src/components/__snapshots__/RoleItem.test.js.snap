@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoleItem Component Renders component without crashing 1`] = `
+<div
+  className="roles-item"
+  onClick={undefined}
+>
+  <AvatarImage
+    name="Admin"
+    type="role"
+  />
+  <div
+    className="text"
+  >
+    Admin
+  </div>
+</div>
+`;

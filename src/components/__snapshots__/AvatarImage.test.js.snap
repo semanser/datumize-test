@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarImage Component Renders Admin role correctly 1`] = `
+<div
+  className="icon"
+  style={
+    Object {
+      "border": "2px solid #EA522F",
+      "color": "#EA522F",
+    }
+  }
+>
+  A
+</div>
+`;
+
+exports[`AvatarImage Component Renders Editor role correctly 1`] = `
+<div
+  className="icon"
+  style={
+    Object {
+      "border": "2px solid #8245EA",
+      "color": "#8245EA",
+    }
+  }
+>
+  E
+</div>
+`;
+
+exports[`AvatarImage Component Renders Viewer role correctly 1`] = `
+<div
+  className="icon"
+  style={
+    Object {
+      "border": "2px solid #45EA69",
+      "color": "#45EA69",
+    }
+  }
+>
+  V
+</div>
+`;
+
+exports[`AvatarImage Component Renders with type="name" without crashing 1`] = `
+<div
+  className="icon"
+  style={
+    Object {
+      "background": "#3c3a78",
+    }
+  }
+>
+  JD
+</div>
+`;
